@@ -50,7 +50,8 @@
 [![Gmail Badge](https://img.shields.io/badge/-renatoservicesti@email.com-006bed?style=flat-square&logo=Gmail&logoColor=white&link=mailto:SEU-EMAIL)](mailto:SEU-EMAIL)
 [![GitHub](https://img.shields.io/github/followers/renatofilhodevandtech?label=follow&style=social)](https://github.com/RenatofilhoDevandtech/RenatofilhoDevandtech)
 
-![Snake animation](https://github.com/renatofilhodevandtech/blob/output/github-contribution-grid-snake.svg)
+![Snake animation](https://github.com/Platane/snk/raw/output/github-contribution-grid-snake.svg)
+
 <!--
 **RenatofilhoDevandtech/RenatofilhoDevandtech** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
