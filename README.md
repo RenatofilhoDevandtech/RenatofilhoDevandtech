@@ -42,7 +42,7 @@
 
 <a href="https://github.com/iuricode" title="Perfil do Iuri">
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=renatofilhodevandtech&theme=dracula&show_icons=true" />
-</a>
+</a> 
 
 ## Onde me encontrar
 
@@ -50,7 +50,11 @@
 [![Gmail Badge](https://img.shields.io/badge/-renatoservicesti@email.com-006bed?style=flat-square&logo=Gmail&logoColor=white&link=mailto:SEU-EMAIL)](mailto:SEU-EMAIL)
 [![GitHub](https://img.shields.io/github/followers/renatofilhodevandtech?label=follow&style=social)](https://github.com/RenatofilhoDevandtech/RenatofilhoDevandtech)
 
-![Snake animation](https://github.com/Platane/snk/raw/output/github-contribution-grid-snake.svg)
+<p align="center">
+  <img src="https://github.com/Platane/snk/raw/output/github-contribution-grid-snake.svg" alt="Snake animation" title="Snake game" width="800px">
+</p>
+
+
 
 <!--
 **RenatofilhoDevandtech/RenatofilhoDevandtech** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
