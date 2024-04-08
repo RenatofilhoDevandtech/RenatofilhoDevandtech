@@ -1,7 +1,8 @@
 ![](https://komarev.com/ghpvc/?username=RenatofilhoDevandtech&color=006bed)
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=0DADDF&center=falso&vCenter=falso&repeat=verdadeiro&random=falso&width=435&lines=Me+chamo+Renato+Filho%2C+32+anos;Desenvolvedor+Front+End;seja+Bem+Vindo+%3AD)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=0DADDF&center=falso&vCenter=falso&repeat=verdadeiro&random=falso&width=435&lines=Me+chamo+Renato+Filho%2C+32+anos;Desenvolvedor+Front+End;Seja+Bem+vindo+%3AD)](https://git.io/typing-svg)
 
+#
 Meu objetivo é criar experiências incríveis na web. Sou apaixonado por desenvolvimento front-end e Tecnologia e estou sempre em busca de novos desafios. Aqui estão algumas informações sobre mim:
 
  <img
