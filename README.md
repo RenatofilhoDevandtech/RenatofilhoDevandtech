@@ -2,91 +2,71 @@
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=0DADDF&center=falso&vCenter=falso&repeat=verdadeiro&random=falso&width=435&lines=Me+chamo+Renato+Filho%2C+32+anos;Desenvolvedor+Front+End;Seja+Bem+vindo+%3AD)](https://git.io/typing-svg)
 
-#
-Meu objetivo é criar experiências incríveis na web. Sou apaixonado por desenvolvimento front-end e Tecnologia e estou sempre em busca de novos desafios. Aqui estão algumas informações sobre mim:
+<img align="center" style="margin-bottom:60px" width="40%" src="https://github.com/user-attachments/assets/0f1b1533-74a6-48e5-9966-0f540d1b1445" />
+&nbsp;&nbsp;&nbsp;
 
- <img
-  align="left"
-  src="https://github.com/RenatofilhoDevandtech/RenatofilhoDevandtech/assets/59034938/264f52a3-a2dc-40bc-84e8-d2a87df702ec"
-  alt="Github Stats"
-  />
-## Atividade no GitHub
-[![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=RenatofilhoDevandtech&theme=react)](https://github.com/RenatofilhoDevandtech/github-readme-activity-graph)
+<p align="center">💙 Eu amo resolver grandes desafios usando tecnologia. <br><br> Desde o desenvolvimento front-end com React até o desenvolvimento back-end com Node.js, sou <strong>apaixonado por descobrir novas tecnologias</strong> e usá-las para criar soluções de alta qualidade. 🚀 Hoje, sou um <strong>desenvolvedor front-end de nível intermediário</strong> focado em criar experiências web impecáveis. Formado em Redes de Computadores, atualmente trabalho como Analista de Suporte, mas meu objetivo é me tornar um desenvolvedor Full Stack. 🌟</p>&nbsp;
 
-## Estatísticas do GitHub
+<div align="center" style="margin-bottom:50px">
+<img width=55% align="center" src="https://github-readme-streak-stats.herokuapp.com?user=RenatofilhoDevandtech&theme=react&mode=weekly" />
+<img width=40% align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=RenatofilhoDevandtech&show_icons=true&theme=react&layout=compact" />
+</div>
+ 
+&nbsp;
+&nbsp;
 
- <a href="https://github.com/renatofilhodevandtech" title="Perfil do Renato Filho">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=renatofilhodevandtech&theme=react&show_icons=true" />
-</a> 
+## <span style="color: #8F0D87;">Minhas Habilidades</span>
 
-## Principais Linguagens
- <img
-  align="center"
-  src="https://github-readme-stats.vercel.app/api/top-langs/?username=renatofilhodevandtech&theme=react&show_icons=false&include_all_commits=true&count_private=true&layout=compact"
-  alt="Github Stats"
-  />
-  
-## Sequência de Contribuições
-  <img
-        align="center"
-        src="https://github-readme-streak-stats.herokuapp.com/?user=renatofilhodevandtech&theme=react&show_iconsr=false"
-        alt="Github Stats"
-      />
+#### <span style="color: #8F0D87;">Principais Tecnologias:</span>
 
+![JavaScript](https://img.shields.io/badge/JavaScript-00CED1?style=for-the-badge&logo=javascript&logoColor=4B0082)&nbsp;
+![Scss](https://img.shields.io/badge/Scss-00CED1?style=for-the-badge&logo=Scss&logoColor=4B0082)&nbsp;
+![HTML](https://img.shields.io/badge/HTML5-00CED1?style=for-the-badge&logo=html5&logoColor=4B0082)&nbsp;
+![CSS](https://img.shields.io/badge/CSS3-00CED1?style=for-the-badge&logo=css3&logoColor=4B0082)&nbsp;
+![Node.js](https://img.shields.io/badge/Node.js-00CED1?style=for-the-badge&logo=node.js&logoColor=4B0082)&nbsp;
+![React](https://img.shields.io/badge/React-00CED1?style=for-the-badge&logo=react&logoColor=4B0082)&nbsp;
+![Git](https://img.shields.io/badge/GIT-00CED1?style=for-the-badge&logo=git&logoColor=4B0082)&nbsp;
+![AWS](https://img.shields.io/badge/AWS-00CED1?style=for-the-badge&logo=amazon-aws&logoColor=4B0082)&nbsp;
+![Github](https://img.shields.io/badge/github-00CED1?style=for-the-badge&logo=github&logoColor=4B0082)&nbsp;
+![Inteligência Artificial](https://img.shields.io/badge/Intelig%C3%AAncia_Artificial-00CED1?style=for-the-badge&logo=ai&logoColor=4B0082)&nbsp;
 
-## Minhas Skills
+<img src="https://raw.githubusercontent.com/MicaelliMedeiros/micaellimedeiros/master/image/computer-illustration.png" min-width="400px" max-width="400px" width="400px" align="right" alt="Computador iuriCode">
 
-**Aplicações e dados**
+#### <span style="color: #8F0D87;">Habilidades de Analista de Suporte:</span>
 
-![JavaScript](https://img.shields.io/badge/-JavaScript-333333?style=flat&logo=javascript)
-![HTML5](https://img.shields.io/badge/-HTML5-333333?style=flat&logo=HTML5)
-![CSS](https://img.shields.io/badge/-CSS-333333?style=flat&logo=CSS3&logoColor=1572B6)
-![Python](https://img.shields.io/badge/-Python-333333?style=flat&logo=Python)
-![React](https://img.shields.io/badge/-React-333333?style=flat&logo=react)
-![MySQL](https://img.shields.io/badge/-MySQL-333333?style=flat&logo=mysql)
-![Node.js](https://img.shields.io/badge/-Node.js-333333?style=flat&logo=Node.js)
+![Linux](https://img.shields.io/badge/Linux-00CED1?style=for-the-badge&logo=linux&logoColor=4B0082)&nbsp;
+![Windows](https://img.shields.io/badge/Windows-00CED1?style=for-the-badge&logo=windows&logoColor=4B0082)&nbsp;
+![Redes de Computadores](https://img.shields.io/badge/Redes_de_Computadores-00CED1?style=for-the-badge&logo=network&logoColor=4B0082)&nbsp;
+![Help Desk](https://img.shields.io/badge/Help_Desk-00CED1?style=for-the-badge&logo=help-desk&logoColor=4B0082)&nbsp;
+![Suporte Técnico](https://img.shields.io/badge/Suporte_T%C3%A9cnico-00CED1?style=for-the-badge&logo=support&logoColor=4B0082)&nbsp;
 
-**Utilidades**
+#### <span style="color: #8F0D87;">Estudando no momento:</span>
 
-![Windows](https://img.shields.io/badge/-windows-333333?style=flat&logo=Windows)
-![Linux](https://img.shields.io/badge/-Linux-333333?style=flat&logo=Linux)
+![Docker](https://img.shields.io/badge/Docker-00CED1?style=for-the-badge&logo=docker&logoColor=4B0082)&nbsp;
+![Kubernetes](https://img.shields.io/badge/Kubernetes-00CED1?style=for-the-badge&logo=kubernetes&logoColor=4B0082)&nbsp;
+![Power BI](https://img.shields.io/badge/Power_BI-00CED1?style=for-the-badge&logo=power-bi&logoColor=4B0082)&nbsp;
+![Python](https://img.shields.io/badge/Python-00CED1?style=for-the-badge&logo=python&logoColor=4B0082)&nbsp;
+![MySQL](https://img.shields.io/badge/MySQL-00CED1?style=for-the-badge&logo=mysql&logoColor=4B0082)&nbsp;
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-00CED1?style=for-the-badge&logo=postgresql&logoColor=4B0082)&nbsp;
 
-**DevOps**
+#### <span style="color: #8F0D87;">Ferramentas de Trabalho:</span>
 
-![Git](https://img.shields.io/badge/-Git-333333?style=flat&logo=git)
-![GitHub](https://img.shields.io/badge/-GitHub-333333?style=flat&logo=github)
-![Docker](https://img.shields.io/badge/-Docker-333333?style=flat&logo=docker)
+![VSCode](https://img.shields.io/badge/VSCode-00CED1?style=for-the-badge&logo=visual-studio-code&logoColor=4B0082)&nbsp;
+![Trello](https://img.shields.io/badge/Trello-00CED1?style=for-the-badge&logo=trello&logoColor=4B0082)&nbsp;
+![Notion](https://img.shields.io/badge/Notion-00CED1?style=for-the-badge&logo=notion&logoColor=4B0082)&nbsp;
+![Canva](https://img.shields.io/badge/Canva-00CED1?style=for-the-badge&logo=Canva&logoColor=4B0082)&nbsp;
+![UX Design](https://img.shields.io/badge/UX_Design-00CED1?style=for-the-badge&logo=ux-design&logoColor=4B0082)&nbsp;
 
-**Ferramentas de desenvolvimento**
+&nbsp;
+&nbsp;
 
-![Visual Studio Code](https://img.shields.io/badge/-Visual%20Studio%20Code-333333?style=flat&logo=visual-studio-code&logoColor=007ACC)
-![Trello](https://img.shields.io/badge/-Trello-333333?style=flat&logo=trello&logoColor=007ACC)
-![Figma](https://img.shields.io/badge/-Figma-333333?style=flat&logo=figma&logoColor=007ACC)
-![Canva](https://img.shields.io/badge/-Canva-333333?style=flat&logo=Canva&logoColor=007ACC)
+## <span style="color: #8F0D87;">Contatos:</span>
 
-<br/>
+<div> 
+<a href="https://www.instagram.com/renato.filho.devandtech" target="_blank"><img src="https://img.shields.io/badge/-Instagram-00CED1?style=for-the-badge&logo=instagram&logoColor=4B0082"></a>
+<a href = "mailto:renatoservicesti@email.com"> <img src="https://img.shields.io/badge/-Gmail-00CED1?style=for-the-badge&logo=gmail&logoColor=4B0082" target="_blank"></a>
+<a href="https://www.linkedin.com/in/renato-filho-devandtech/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-00CED1?style=for-the-badge&logo=linkedin&logoColor=4B0082" target="_blank"></a> 
+<a href="https://medium.com/@renatofilho.devandtech" target="_blank"><img src="https://img.shields.io/badge/-Medium-00CED1?style=for-the-badge&logo=medium&logoColor=4B0082" target="_blank"></a> 
+</div>&nbsp;&nbsp;
 
-
-## Onde me encontrar
-
-[![Linkedin](https://img.shields.io/badge/-RenatoFilho-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/renato-filho-devandtech)](https://www.linkedin.com/in/renato-filho-devandtech)
-[![Gmail Badge](https://img.shields.io/badge/-renatoservicesti@email.com-006bed?style=flat-square&logo=Gmail&logoColor=white&link=mailto:SEU-EMAIL)](mailto:SEU-EMAIL)
-[![GitHub](https://img.shields.io/github/followers/renatofilhodevandtech?label=follow&style=social)](https://github.com/RenatofilhoDevandtech/RenatofilhoDevandtech)
-
-
-
-
-<!--
-**RenatofilhoDevandtech/RenatofilhoDevandtech** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=00CED1&height=120&section=footer"/>
