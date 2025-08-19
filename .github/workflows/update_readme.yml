@@ -1,0 +1,49 @@
+name: Update README Dynamically
+on:
+  schedule:
+    # Roda a cada hora
+    - cron: '0 * * * *'
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Get Last Commit Message from any Public Repo
+        id: last_commit
+        uses: actions-ecosystem/action-get-latest-push@main
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          owner: 'RenatofilhoDevandtech' # Seu nome de usuário do GitHub
+
+      - name: Ask AI to improve commit message
+        id: commit_suggester
+        uses: GoogleCloudPlatform/github-actions/packages/google-cloud-ai-platform/gemini-generator@main
+        with:
+          gemini_api_key: ${{ secrets.GEMINI_API_KEY }}
+          prompt: "Aja como um desenvolvedor sênior. Reescreva a seguinte mensagem de commit para seguir o padrão Conventional Commits (ex: 'feat(auth): Adiciona login com Google'). Seja conciso e técnico. A mensagem é: '${{ steps.last_commit.outputs.message }}'"
+
+      - name: Update README with AI Suggestion and Repo Info
+        uses: teoxoy/profile-readme-stats@v2
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          stats_in_readme: |
+            - start: ""
+              end: ""
+              template: |
+                <table width="100%">
+                  <tr>
+                    <td width="20%"><b>Última Atividade em:</b></td>
+                    <td><a href="https://github.com/${{ steps.last_commit.outputs.repo_full_name }}"><b>${{ steps.last_commit.outputs.repo_full_name }}</b></a></td>
+                  </tr>
+                  <tr>
+                    <td width="20%"><b>Meu Último Commit:</b></td>
+                    <td><code>${{ steps.last_commit.outputs.message }}</code></td>
+                  </tr>
+                  <tr>
+                    <td width="20%"><b>Sugestão da IA:</b></td>
+                    <td><code>${{ steps.commit_suggester.outputs.gemini_text }}</code></td>
+                  </tr>
+                </table>
