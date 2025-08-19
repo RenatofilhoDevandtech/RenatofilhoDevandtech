@@ -1,72 +1,139 @@
-![](https://komarev.com/ghpvc/?username=RenatofilhoDevandtech&color=006bed)
-
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=0DADDF&center=falso&vCenter=falso&repeat=verdadeiro&random=falso&width=435&lines=Me+chamo+Renato+Filho%2C+32+anos;Desenvolvedor+Front+End;Seja+Bem+vindo+%3AD)](https://git.io/typing-svg)
-
-<img align="center" style="margin-bottom:60px" width="40%" src="https://github.com/user-attachments/assets/0f1b1533-74a6-48e5-9966-0f540d1b1445" />
-&nbsp;&nbsp;&nbsp;
-
-<p align="center">💙 Eu amo resolver grandes desafios usando tecnologia. <br><br> Desde o desenvolvimento front-end com React até o desenvolvimento back-end com Node.js, sou <strong>apaixonado por descobrir novas tecnologias</strong> e usá-las para criar soluções de alta qualidade. 🚀 Hoje, sou um <strong>desenvolvedor front-end de nível intermediário</strong> focado em criar experiências web impecáveis. Formado em Redes de Computadores, atualmente trabalho como Analista de Suporte, mas meu objetivo é me tornar um desenvolvedor Full Stack. 🌟</p>&nbsp;
-
-<div align="center" style="margin-bottom:50px">
-<img width=55% align="center" src="https://github-readme-streak-stats.herokuapp.com?user=RenatofilhoDevandtech&theme=react&mode=weekly" />
-<img width=40% align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=RenatofilhoDevandtech&show_icons=true&theme=react&layout=compact" />
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/RenatofilhoDevandtech/RenatofilhoDevandtech/blob/main/assets/Banner-dark%20mod.png?raw=true">
+    <source media="(prefers-color-scheme: light)" srcset="https://github.com/RenatofilhoDevandtech/RenatofilhoDevandtech/blob/main/assets/Banner-light%20mod.png?raw=true">
+    <img alt="Banner do Perfil" src="https://github.com/RenatofilhoDevandtech/RenatofilhoDevandtech/blob/main/assets/Banner-light%20mod.png?raw=true">
+  </picture>
 </div>
- 
-&nbsp;
-&nbsp;
 
-## <span style="color: #8F0D87;">Minhas Habilidades</span>
+<div align="center" style="margin-top: 20px;">
+  <img src="https://github.com/user-attachments/assets/e2b68261-77bc-4613-861a-99f7182fd336" width="200px" alt="Renato Filho" style="border-radius: 50%; border: 2px solid #007AFF;"/>
+</div>
 
-#### <span style="color: #8F0D87;">Principais Tecnologias:</span>
+<div align="center">
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&pause=1000&color=007AFF&center=true&vCenter=true&width=500&lines=Renato+Filho;Desenvolvedor+Fullstack;Formado+em+Redes+%26+Estudando+Cloud+AWS;Automating+my+profile+with+AI+and+Actions" alt="Typing SVG">
+  </a>
+</div>
 
-![JavaScript](https://img.shields.io/badge/JavaScript-00CED1?style=for-the-badge&logo=javascript&logoColor=4B0082)&nbsp;
-![Scss](https://img.shields.io/badge/Scss-00CED1?style=for-the-badge&logo=Scss&logoColor=4B0082)&nbsp;
-![HTML](https://img.shields.io/badge/HTML5-00CED1?style=for-the-badge&logo=html5&logoColor=4B0082)&nbsp;
-![CSS](https://img.shields.io/badge/CSS3-00CED1?style=for-the-badge&logo=css3&logoColor=4B0082)&nbsp;
-![Node.js](https://img.shields.io/badge/Node.js-00CED1?style=for-the-badge&logo=node.js&logoColor=4B0082)&nbsp;
-![React](https://img.shields.io/badge/React-00CED1?style=for-the-badge&logo=react&logoColor=4B0082)&nbsp;
-![Git](https://img.shields.io/badge/GIT-00CED1?style=for-the-badge&logo=git&logoColor=4B0082)&nbsp;
-![AWS](https://img.shields.io/badge/AWS-00CED1?style=for-the-badge&logo=amazon-aws&logoColor=4B0082)&nbsp;
-![Github](https://img.shields.io/badge/github-00CED1?style=for-the-badge&logo=github&logoColor=4B0082)&nbsp;
-![Inteligência Artificial](https://img.shields.io/badge/Intelig%C3%AAncia_Artificial-00CED1?style=for-the-badge&logo=ai&logoColor=4B0082)&nbsp;
+<br>
 
-<img src="https://raw.githubusercontent.com/MicaelliMedeiros/micaellimedeiros/master/image/computer-illustration.png" min-width="400px" max-width="400px" width="400px" align="right" alt="Computador iuriCode">
+<p align="center">
+  Desenvolvedor dedicado à criação de experiências digitais de alta performance e confiabilidade. Minha base sólida em <strong>Redes de Computadores</strong> me permite abordar o desenvolvimento web com uma perspectiva única, otimizando aplicações para velocidade, segurança e escalabilidade. Este README é um projeto vivo, automatizado com <strong>GitHub Actions</strong> e <strong>Inteligência Artificial</strong> para refletir minha atividade em tempo real.
+</p>
 
-#### <span style="color: #8F0D87;">Habilidades de Analista de Suporte:</span>
+<table width="100%">
+  <tr>
+    <td width="70%">
+      <h3 align="left">Métricas de Código (Últimos 7 Dias)</h3>
+      <a href="https://wakatime.com/@RenatofilhoDevandtech">
+        <img src="https://github-readme-stats.vercel.app/api/wakatime?username=RenatofilhoDevandtech&layout=compact&theme=transparent&title_color=007AFF&text_color=FFFFFF&icon_color=007AFF&hide_border=true" alt="WakaTime Stats" />
+      </a>
+    </td>
+    <td width="30%" valign="top">
+      <h3 align="left">Status</h3>
+      <a href="https://github.com/novatorem/novatorem">
+        <img src="https://novatorem.vercel.app/api/spotify?background_color=0d1117&border_color=007AFF" alt="Spotify Now Playing" width="100%" />
+      </a>
+    </td>
+  </tr>
+</table>
 
-![Linux](https://img.shields.io/badge/Linux-00CED1?style=for-the-badge&logo=linux&logoColor=4B0082)&nbsp;
-![Windows](https://img.shields.io/badge/Windows-00CED1?style=for-the-badge&logo=windows&logoColor=4B0082)&nbsp;
-![Redes de Computadores](https://img.shields.io/badge/Redes_de_Computadores-00CED1?style=for-the-badge&logo=network&logoColor=4B0082)&nbsp;
-![Help Desk](https://img.shields.io/badge/Help_Desk-00CED1?style=for-the-badge&logo=help-desk&logoColor=4B0082)&nbsp;
-![Suporte Técnico](https://img.shields.io/badge/Suporte_T%C3%A9cnico-00CED1?style=for-the-badge&logo=support&logoColor=4B0082)&nbsp;
+<div align="center" style="width: 70%; margin: 30px auto; height: 1px; background: linear-gradient(to right, #33333310, #007AFF, #33333310);"></div>
 
-#### <span style="color: #8F0D87;">Estudando no momento:</span>
+<h3 align="center">
+  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Robot.png" alt="Robot" width="30" height="30" />
+  Análise de Commits por IA
+</h3>
+<p align="center" style="font-size:14px;">
+  Um GitHub Action analisa meu último commit e uma IA sugere uma mensagem mais profissional, seguindo as melhores práticas.
+</p>
 
-![Docker](https://img.shields.io/badge/Docker-00CED1?style=for-the-badge&logo=docker&logoColor=4B0082)&nbsp;
-![Kubernetes](https://img.shields.io/badge/Kubernetes-00CED1?style=for-the-badge&logo=kubernetes&logoColor=4B0082)&nbsp;
-![Power BI](https://img.shields.io/badge/Power_BI-00CED1?style=for-the-badge&logo=power-bi&logoColor=4B0082)&nbsp;
-![Python](https://img.shields.io/badge/Python-00CED1?style=for-the-badge&logo=python&logoColor=4B0082)&nbsp;
-![MySQL](https://img.shields.io/badge/MySQL-00CED1?style=for-the-badge&logo=mysql&logoColor=4B0082)&nbsp;
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-00CED1?style=for-the-badge&logo=postgresql&logoColor=4B0082)&nbsp;
+<p align="center"><i>Atualizando dados...</i></p>
+<div align="center" style="width: 70%; margin: 30px auto; height: 1px; background: linear-gradient(to right, #33333310, #007AFF, #33333310);"></div>
 
-#### <span style="color: #8F0D87;">Ferramentas de Trabalho:</span>
+<h3 align="center">
+  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Toolbox.png" alt="Toolbox" width="30" height="30" />
+  Ecossistema de Tecnologias
+</h3>
 
-![VSCode](https://img.shields.io/badge/VSCode-00CED1?style=for-the-badge&logo=visual-studio-code&logoColor=4B0082)&nbsp;
-![Trello](https://img.shields.io/badge/Trello-00CED1?style=for-the-badge&logo=trello&logoColor=4B0082)&nbsp;
-![Notion](https://img.shields.io/badge/Notion-00CED1?style=for-the-badge&logo=notion&logoColor=4B0082)&nbsp;
-![Canva](https://img.shields.io/badge/Canva-00CED1?style=for-the-badge&logo=Canva&logoColor=4B0082)&nbsp;
-![UX Design](https://img.shields.io/badge/UX_Design-00CED1?style=for-the-badge&logo=ux-design&logoColor=4B0082)&nbsp;
+<table width="100%" align="center" style="margin-top:20px;">
+  <tr>
+    <td width="33%" valign="top" align="center">
+      <h4>Front-End</h4>
+      <p>
+        <img src="https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB" alt="React">
+        <img src="https://img.shields.io/badge/JavaScript-20232A?style=flat&logo=javascript&logoColor=F7DF1E" alt="JavaScript">
+        <img src="https://img.shields.io/badge/HTML5-20232A?style=flat&logo=html5&logoColor=E34F26" alt="HTML5">
+        <img src="https://img.shields.io/badge/CSS3-20232A?style=flat&logo=css3&logoColor=1572B6" alt="CSS3">
+        <img src="https://img.shields.io/badge/Tailwind_CSS-20232A?style=flat&logo=tailwindcss&logoColor=06B6D4" alt="Tailwind CSS">
+        <img src="https://img.shields.io/badge/Sass-20232A?style=flat&logo=sass&logoColor=CC6699" alt="Sass">
+      </p>
+    </td>
+    <td width="33%" valign="top" align="center">
+      <h4>Back-End & Infra</h4>
+      <p>
+        <img src="https://img.shields.io/badge/Node.js-20232A?style=flat&logo=nodedotjs&logoColor=339933" alt="Node.js">
+        <img src="https://img.shields.io/badge/Express.js-20232A?style=flat&logo=express&logoColor=white" alt="Express.js">
+        <img src="https://img.shields.io/badge/Python-20232A?style=flat&logo=python&logoColor=3776AB" alt="Python">
+        <img src="https://img.shields.io/badge/Flask-20232A?style=flat&logo=flask&logoColor=white" alt="Flask">
+        <img src="https://img.shields.io/badge/Supabase-20232A?style=flat&logo=supabase&logoColor=3ECF8E" alt="Supabase">
+        <img src="https://img.shields.io/badge/MySQL-20232A?style=flat&logo=mysql&logoColor=4479A1" alt="MySQL">
+        <img src="https://img.shields.io/badge/PostgreSQL-20232A?style=flat&logo=postgresql&logoColor=4169E1" alt="PostgreSQL">
+        <img src="https://img.shields.io/badge/Docker-20232A?style=flat&logo=docker&logoColor=2496ED" alt="Docker">
+        <img src="https://img.shields.io/badge/AWS-20232A?style=flat&logo=amazon-aws&logoColor=FF9900" alt="AWS">
+        <img src="https://img.shields.io/badge/Vercel-20232A?style=flat&logo=vercel&logoColor=white" alt="Vercel">
+        <img src="https://img.shields.io/badge/Render-20232A?style=flat&logo=render&logoColor=46E3B7" alt="Render">
+      </p>
+    </td>
+    <td width="33%" valign="top" align="center">
+      <h4>Ferramentas & Outros</h4>
+      <p>
+        <img src="https://img.shields.io/badge/Git-20232A?style=flat&logo=git&logoColor=F05032" alt="Git">
+        <img src="https://img.shields.io/badge/GitHub-20232A?style=flat&logo=github&logoColor=white" alt="GitHub">
+        <img src="https://img.shields.io/badge/Cypress-20232A?style=flat&logo=cypress&logoColor=white" alt="Cypress">
+        <img src="https://img.shields.io/badge/Postman-20232A?style=flat&logo=postman&logoColor=FF6C37" alt="Postman">
+        <img src="https://img.shields.io/badge/Linux-20232A?style=flat&logo=linux&logoColor=FCC624" alt="Linux">
+        <img src="https://img.shields.io/badge/VS_Code-20232A?style=flat&logo=visual-studio-code&logoColor=007ACC" alt="VS Code">
+        <img src="https://img.shields.io/badge/Figma-20232A?style=flat&logo=figma&logoColor=F24E1E" alt="Figma">
+        <img src="https://img.shields.io/badge/Notion-20232A?style=flat&logo=notion&logoColor=white" alt="Notion">
+        <img src="https://img.shields.io/badge/Power_BI-20232A?style=flat&logo=powerbi&logoColor=F2C811" alt="Power BI">
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="3" valign="top" align="center">
+      <h4>Inteligência Artificial</h4>
+      <p>
+        <img src="https://img.shields.io/badge/Gemini-20232A?style=flat&logo=googlegemini&logoColor=8E77F0" alt="Google Gemini">
+        <img src="https://img.shields.io/badge/ChatGPT-20232A?style=flat&logo=openai&logoColor=412991" alt="ChatGPT">
+        <img src="https://img.shields.io/badge/GitHub_Copilot-20232A?style=flat&logo=githubcopilot&logoColor=63E1AD" alt="GitHub Copilot">
+        <img src="https://img.shields.io/badge/DeepSeek-20232A?style=flat" alt="DeepSeek">
+        <img src="https://img.shields.io/badge/v0_by_Vercel-20232A?style=flat&logo=vercel&logoColor=white" alt="v0 by Vercel">
+        <img src="https://img.shields.io/badge/Lovable.dev-20232A?style=flat" alt="Lovable.dev">
+      </p>
+    </td>
+  </tr>
+</table>
 
-&nbsp;
-&nbsp;
+<div align="center" style="width: 70%; margin: 30px auto; height: 1px; background: linear-gradient(to right, #33333310, #007AFF, #33333310);"></div>
 
-## <span style="color: #8F0D87;">Contatos:</span>
+<h3 align="center">
+  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Waving%20Hand.png" alt="Waving Hand" width="30" height="30" />
+  Vamos Conectar!
+</h3>
 
-<div> 
-<a href="https://www.instagram.com/renato.filho.devandtech" target="_blank"><img src="https://img.shields.io/badge/-Instagram-00CED1?style=for-the-badge&logo=instagram&logoColor=4B0082"></a>
-<a href = "mailto:renatoservicesti@email.com"> <img src="https://img.shields.io/badge/-Gmail-00CED1?style=for-the-badge&logo=gmail&logoColor=4B0082" target="_blank"></a>
-<a href="https://www.linkedin.com/in/renato-filho-devandtech/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-00CED1?style=for-the-badge&logo=linkedin&logoColor=4B0082" target="_blank"></a> 
-<a href="https://medium.com/@renatofilho.devandtech" target="_blank"><img src="https://img.shields.io/badge/-Medium-00CED1?style=for-the-badge&logo=medium&logoColor=4B0082" target="_blank"></a> 
-</div>&nbsp;&nbsp;
+<p align="center">
+  <a href="https://www.linkedin.com/in/renato-filho-devandtech/" target="_blank">
+    <img alt="LinkedIn" src="https://img.shields.io/badge/-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white">
+  </a>
+  <a href="mailto:renatoservicesti@email.com" target="_blank">
+    <img alt="Gmail" src="https://img.shields.io/badge/-Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white">
+  </a>
+  <a href="https://www.instagram.com/renato.filho.devandtech" target="_blank">
+    <img alt="Instagram" src="https://img.shields.io/badge/-Instagram-833AB4?style=for-the-badge&logo=instagram&logoColor=white">
+  </a>
+</p>
 
-<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=00CED1&height=120&section=footer"/>
+<br>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=ffffff20&height=120&section=footer"/>
