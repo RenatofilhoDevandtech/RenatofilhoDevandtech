@@ -16,7 +16,7 @@ jobs:
         uses: actions-ecosystem/action-get-latest-push@main
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          owner: 'RenatofilhoDevandtech' # Seu nome de usuário do GitHub
+          owner: 'RenatofilhoDevandtech'
 
       - name: Ask AI to improve commit message
         id: commit_suggester
