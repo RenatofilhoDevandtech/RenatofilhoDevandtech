@@ -11,12 +11,11 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - name: Get Last Commit Message from any Public Repo
+      - name: Get Last Commit from any Public Repo
         id: last_commit
-        uses: actions-ecosystem/action-get-latest-push@main
+        uses: pokey/latest-commit@v1
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          owner: 'RenatofilhoDevandtech'
+          user: 'RenatofilhoDevandtech'
 
       - name: Ask AI to improve commit message
         id: commit_suggester
@@ -36,7 +35,7 @@ jobs:
                 <table width="100%">
                   <tr>
                     <td width="20%"><b>Última Atividade em:</b></td>
-                    <td><a href="https://github.com/${{ steps.last_commit.outputs.repo_full_name }}"><b>${{ steps.last_commit.outputs.repo_full_name }}</b></a></td>
+                    <td><a href="https://github.com/${{ steps.last_commit.outputs.repo_owner }}/${{ steps.last_commit.outputs.repo_name }}"><b>${{ steps.last_commit.outputs.repo_owner }}/${{ steps.last_commit.outputs.repo_name }}</b></a></td>
                   </tr>
                   <tr>
                     <td width="20%"><b>Meu Último Commit:</b></td>
