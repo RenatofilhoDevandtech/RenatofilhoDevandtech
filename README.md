@@ -29,7 +29,7 @@
   </a>
   
   <a href="https://github.com/kittinan/spotify-github-profile" style="display: block; margin-top: 20px;">
-    <img src="https://spotify-github-profile.kittinanx.com/api/view?uid=igwnat2v17vlpp8ws07s50xoy&cover_image=true&theme=tokyonight&show_offline=true&interchange=false&bar_color_cover=false" alt="Spotify Now Playing" />
+    <img src="https://spotify-github-profile.kittinanx.com/api/view?uid=COLE_SEU_NOVO_UID_DO_SPOTIFY_AQUI&cover_image=true&theme=tokyonight&show_offline=true&interchange=false&bar_color_cover=false" alt="Spotify Now Playing" />
   </a>
 </div>
 
