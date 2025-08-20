@@ -1,8 +1,8 @@
-name: Update README Dynamically
+name: Update AI Assistant Profile
 on:
   schedule:
-    # Roda a cada hora
-    - cron: '0 * * * *'
+    # Roda uma vez por dia
+    - cron: '0 0 * * *'
   workflow_dispatch:
 
 jobs:
@@ -14,57 +14,34 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Get Last Commit from GitHub API (Robust Version)
-        id: last_commit
+      - name: Generate AI Profile Summary
+        id: ai_assistant
         run: |
-          EVENT_DATA=$(curl -s "https://api.github.com/users/RenatofilhoDevandtech/events/public")
-          LATEST_PUSH=$(echo "$EVENT_DATA" | jq '[.[] | select(.type=="PushEvent")][0]')
-
-          if [[ "$LATEST_PUSH" == "null" ]]; then
-            REPO_NAME="N/A"
-            COMMIT_MESSAGE="Nenhum commit público recente encontrado."
-          else
-            REPO_NAME=$(echo "$LATEST_PUSH" | jq -r '.repo.name')
-            COMMIT_MESSAGE=$(echo "$LATEST_PUSH" | jq -r '.payload.commits[0].message | gsub("\"";"\\\"")')
-          fi
+          PROMPT="Aja como uma assistente de IA para um perfil de desenvolvedor. O desenvolvedor se chama Renato Filho. Ele é formado em Redes de Computadores e está focado em se tornar um Desenvolvedor Full Stack com especialidade em Cloud (AWS). Suas principais tecnologias são React, Next.js, Node.js, Python, Docker e PostgreSQL.
+          Sua tarefa é escrever um resumo curto e profissional (2-3 sentenças) sobre o Renato, destacando como sua base em redes o diferencia. A cada dia, varie um pouco a formulação para que o texto pareça sempre novo.
+          O texto deve ser em português do Brasil, em um tom profissional e inspirador. Retorne APENAS o texto do resumo, sem nenhum título ou formatação adicional (como aspas ou markdown)."
           
-          echo "repo_full_name=$REPO_NAME" >> $GITHUB_OUTPUT
-          echo "message=$COMMIT_MESSAGE" >> $GITHUB_OUTPUT
-
-      - name: Ask AI to improve commit message
-        id: commit_suggester
-        run: |
-          PROMPT="Aja como um desenvolvedor sênior. Reescreva a seguinte mensagem de commit para seguir o padrão Conventional Commits (ex: 'feat(auth): Adiciona login com Google'). Seja conciso, técnico e retorne APENAS a mensagem sugerida, sem nenhum texto ou formatação adicional. A mensagem é: \"${{ steps.last_commit.outputs.message }}\""
           JSON_PAYLOAD=$(jq -n --arg prompt "$PROMPT" '{contents: [{parts: [{text: $prompt}]}]}')
           API_RESPONSE=$(curl -s -X POST "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=${{ secrets.GEMINI_API_KEY }}" \
             -H "Content-Type: application/json" \
             -d "$JSON_PAYLOAD")
-          SUGGESTION=$(echo "$API_RESPONSE" | jq -r '.candidates[0].content.parts[0].text' | tr -d '\n' | tr -d '`' | sed 's/\"//g')
+          SUMMARY=$(echo "$API_RESPONSE" | jq -r '.candidates[0].content.parts[0].text' | tr -d '\n')
           
-          if [[ -z "$SUGGESTION" ]]; then
-            SUGGESTION="Sugestão indisponível no momento."
+          if [[ -z "$SUMMARY" ]]; then
+            SUMMARY="Renato está constantemente aprimorando suas habilidades em desenvolvimento Full Stack, combinando sua expertise em Redes para construir soluções web de alta performance."
           fi
           
-          echo "gemini_text=$SUGGESTION" >> $GITHUB_OUTPUT
+          echo "summary_text=$SUMMARY" >> $GITHUB_OUTPUT
 
-      - name: Generate new content and update README
+      - name: Update README with AI Summary
         env:
-          REPO_FULL_NAME: ${{ steps.last_commit.outputs.repo_full_name }}
-          COMMIT_MESSAGE: ${{ steps.last_commit.outputs.message }}
-          AI_SUGGESTION: ${{ steps.commit_suggester.outputs.gemini_text }}
+          AI_SUMMARY: ${{ steps.ai_assistant.outputs.summary_text }}
         run: |
-          # Gera o novo conteúdo em um arquivo temporário com o estilo de chat
+          # Gera o novo conteúdo em um arquivo temporário
           cat <<EOF > new_content.html
-          <div style="border: 1px solid #30363d; border-radius: 8px; padding: 16px; font-family: sans-serif; margin: 16px 0;">
-              <div style="margin-bottom: 12px;">
-                  <p style="margin: 0 0 4px 0; font-size: 12px; color: #848d97;"><strong>Seu Commit em <a href="https://github.com/$REPO_FULL_NAME" style="color: #58a6ff; text-decoration: none;">$REPO_FULL_NAME</a>:</strong></p>
-                  <pre style="background-color: #161b22; color: #c9d1d9; padding: 8px 12px; border-radius: 6px; margin: 0; white-space: pre-wrap; font-family: monospace;"><code>$COMMIT_MESSAGE</code></pre>
-              </div>
-              <div>
-                  <p style="margin: 0 0 4px 0; font-size: 12px; color: #848d97;"><strong>🤖 Sugestão da IA:</strong></p>
-                  <pre style="background-color: #1f6feb26; color: #c9d1d9; padding: 8px 12px; border-radius: 6px; margin: 0; white-space: pre-wrap; font-family: monospace;"><code>$AI_SUGGESTION</code></pre>
-              </div>
-          </div>
+          <p align="center" style="font-style: italic; max-width: 80%; margin: auto;">
+          “${AI_SUMMARY}”
+          </p>
           EOF
 
           # Script Python "à prova de falhas" que reconstrói o README
@@ -102,7 +79,7 @@ jobs:
             git config --global user.name 'GitHub Actions Bot'
             git config --global user.email 'github-actions[bot]@users.noreply.github.com'
             git add README.md
-            git commit -m "chore(readme): Update latest activity"
+            git commit -m "chore(readme): Update AI assistant summary"
             git push
           else
             echo "README is already up to date."
