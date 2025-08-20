@@ -17,7 +17,7 @@ jobs:
       - name: Get Last Commit from GitHub API (Robust Version)
         id: last_commit
         run: |
-          EVENT_DATA=$(curl --silent "https://api.github.com/users/RenatofilhoDevandtech/events/public")
+          EVENT_DATA=$(curl -s "https://api.github.com/users/RenatofilhoDevandtech/events/public")
           LATEST_PUSH=$(echo "$EVENT_DATA" | jq '[.[] | select(.type=="PushEvent")][0]')
 
           if [[ "$LATEST_PUSH" == "null" ]]; then
@@ -44,13 +44,12 @@ jobs:
 
       - name: Update README file
         env:
-          # Define as variáveis de ambiente com os dados dos passos anteriores
           REPO_FULL_NAME: ${{ steps.last_commit.outputs.repo_full_name }}
           COMMIT_MESSAGE: ${{ steps.last_commit.outputs.message }}
           AI_SUGGESTION: ${{ steps.commit_suggester.outputs.gemini_text }}
         run: |
-          # Prepara o novo conteúdo HTML em uma variável de ambiente para ser lido pelo Python
-          export NEW_CONTENT_BODY=$(cat <<EOF
+          # Gera o novo conteúdo em um arquivo temporário
+          cat <<EOF > new_content.html
           <table width="100%">
             <tr>
               <td width="20%"><b>Última Atividade em:</b></td>
@@ -66,28 +65,36 @@ jobs:
             </tr>
           </table>
           EOF
-          )
 
-          # Script Python que agora lê a variável de ambiente de forma segura
+          # Script Python "à prova de falhas" que reconstrói o README
           python -c "
-          import re
           import os
           
           readme_path = 'README.md'
           start_marker = ''
           end_marker = ''
           
-          # Lê o conteúdo da variável de ambiente, evitando o SyntaxError
-          new_content_body = os.environ['NEW_CONTENT_BODY']
+          with open('new_content.html', 'r') as f:
+              new_content_body = f.read()
           
-          new_block = f'{start_marker}\n{new_content_body}\n{end_marker}'
+          # Lê o README linha por linha e reconstrói
+          new_readme_lines = []
+          in_block = False
+          with open(readme_path, 'r') as f:
+              for line in f:
+                  if start_marker in line:
+                      new_readme_lines.append(line)
+                      new_readme_lines.append(new_content_body + '\n')
+                      in_block = True
+                  elif end_marker in line:
+                      new_readme_lines.append(line)
+                      in_block = False
+                  elif not in_block:
+                      new_readme_lines.append(line)
           
-          with open(readme_path, 'r+') as f:
-              content = f.read()
-              new_content_full = re.sub(f'{start_marker}(.|\n)*?{end_marker}', new_block, content)
-              f.seek(0)
-              f.truncate()
-              f.write(new_content_full)
+          # Sobrescreve o README com o conteúdo limpo e reconstruído
+          with open(readme_path, 'w') as f:
+              f.writelines(new_readme_lines)
           "
 
       - name: Commit and push changes
