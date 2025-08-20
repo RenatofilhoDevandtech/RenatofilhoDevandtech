@@ -11,11 +11,14 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - name: Get Last Commit from any Public Repo
+      - name: Get Last Commit from GitHub API
         id: last_commit
-        uses: pokey/latest-commit@v1
-        with:
-          user: 'RenatofilhoDevandtech'
+        run: |
+          EVENT_DATA=$(curl --silent "https://api.github.com/users/RenatofilhoDevandtech/events/public")
+          REPO_NAME=$(echo "$EVENT_DATA" | jq -r '[.[] | select(.type=="PushEvent")][0].repo.name')
+          COMMIT_MESSAGE=$(echo "$EVENT_DATA" | jq -r '[.[] | select(.type=="PushEvent")][0].payload.commits[0].message')
+          echo "repo_full_name=$REPO_NAME" >> $GITHUB_OUTPUT
+          echo "message=$COMMIT_MESSAGE" >> $GITHUB_OUTPUT
 
       - name: Ask AI to improve commit message
         id: commit_suggester
@@ -35,7 +38,7 @@ jobs:
                 <table width="100%">
                   <tr>
                     <td width="20%"><b>Última Atividade em:</b></td>
-                    <td><a href="https://github.com/${{ steps.last_commit.outputs.repo_owner }}/${{ steps.last_commit.outputs.repo_name }}"><b>${{ steps.last_commit.outputs.repo_owner }}/${{ steps.last_commit.outputs.repo_name }}</b></a></td>
+                    <td><a href="https://github.com/${{ steps.last_commit.outputs.repo_full_name }}"><b>${{ steps.last_commit.outputs.repo_full_name }}</b></a></td>
                   </tr>
                   <tr>
                     <td width="20%"><b>Meu Último Commit:</b></td>
