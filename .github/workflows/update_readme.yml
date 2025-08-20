@@ -8,6 +8,10 @@ on:
 jobs:
   update:
     runs-on: ubuntu-latest
+    # CORREÇÃO 1: Adicionando permissão de escrita no repositório
+    permissions:
+      contents: write
+      
     steps:
       - uses: actions/checkout@v3
 
@@ -31,25 +35,23 @@ jobs:
           SUGGESTION=$(echo "$API_RESPONSE" | jq -r '.candidates[0].content.parts[0].text' | tr -d '\n' | tr -d '`' | sed 's/\"//g')
           echo "gemini_text=$SUGGESTION" >> $GITHUB_OUTPUT
 
+      # CORREÇÃO 2: Estrutura correta do passo final
       - name: Update README with AI Suggestion and Repo Info
         uses: teoxoy/profile-readme-stats@v2
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          stats_in_readme: |
-            - start: ""
-              end: ""
-              template: |
-                <table width="100%">
-                  <tr>
-                    <td width="20%"><b>Última Atividade em:</b></td>
-                    <td><a href="https://github.com/${{ steps.last_commit.outputs.repo_full_name }}"><b>${{ steps.last_commit.outputs.repo_full_name }}</b></a></td>
-                  </tr>
-                  <tr>
-                    <td width="20%"><b>Meu Último Commit:</b></td>
-                    <td><code>${{ steps.last_commit.outputs.message }}</code></td>
-                  </tr>
-                  <tr>
-                    <td width="20%"><b>Sugestão da IA:</b></td>
-                    <td><code>${{ steps.commit_suggester.outputs.gemini_text }}</code></td>
-                  </tr>
-                </table>
+          token: ${{ secrets.GITHUB_TOKEN }}
+          template: |
+            <table width="100%">
+              <tr>
+                <td width="20%"><b>Última Atividade em:</b></td>
+                <td><a href="https://github.com/${{ steps.last_commit.outputs.repo_full_name }}"><b>${{ steps.last_commit.outputs.repo_full_name }}</b></a></td>
+              </tr>
+              <tr>
+                <td width="20%"><b>Meu Último Commit:</b></td>
+                <td><code>${{ steps.last_commit.outputs.message }}</code></td>
+              </tr>
+              <tr>
+                <td width="20%"><b>Sugestão da IA:</b></td>
+                <td><code>${{ steps.commit_suggester.outputs.gemini_text }}</code></td>
+              </tr>
+            </table>
