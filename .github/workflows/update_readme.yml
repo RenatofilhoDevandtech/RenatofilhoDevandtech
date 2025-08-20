@@ -22,10 +22,14 @@ jobs:
 
       - name: Ask AI to improve commit message
         id: commit_suggester
-        uses: GoogleCloudPlatform/github-actions/packages/google-cloud-ai-platform/gemini-generator@main
-        with:
-          gemini_api_key: ${{ secrets.GEMINI_API_KEY }}
-          prompt: "Aja como um desenvolvedor sênior. Reescreva a seguinte mensagem de commit para seguir o padrão Conventional Commits (ex: 'feat(auth): Adiciona login com Google'). Seja conciso e técnico. A mensagem é: '${{ steps.last_commit.outputs.message }}'"
+        run: |
+          PROMPT="Aja como um desenvolvedor sênior. Reescreva a seguinte mensagem de commit para seguir o padrão Conventional Commits (ex: 'feat(auth): Adiciona login com Google'). Seja conciso, técnico e retorne APENAS a mensagem sugerida, sem nenhum texto ou formatação adicional. A mensagem é: '${{ steps.last_commit.outputs.message }}'"
+          JSON_PAYLOAD=$(jq -n --arg prompt "$PROMPT" '{contents: [{parts: [{text: $prompt}]}]}')
+          API_RESPONSE=$(curl -s -X POST "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=${{ secrets.GEMINI_API_KEY }}" \
+            -H "Content-Type: application/json" \
+            -d "$JSON_PAYLOAD")
+          SUGGESTION=$(echo "$API_RESPONSE" | jq -r '.candidates[0].content.parts[0].text' | tr -d '\n' | tr -d '`' | sed 's/\"//g')
+          echo "gemini_text=$SUGGESTION" >> $GITHUB_OUTPUT
 
       - name: Update README with AI Suggestion and Repo Info
         uses: teoxoy/profile-readme-stats@v2
