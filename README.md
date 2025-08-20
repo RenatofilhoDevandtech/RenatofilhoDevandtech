@@ -61,7 +61,12 @@
   Minha Atividade Recente no GitHub
 </h3>
 
+<!-- OS MARCADORES CORRIGIDOS ESTÃO AQUI -->
+<!--START_SECTION:activity-->
 <p align="center"><i>Aguardando a automação para buscar minhas últimas atividades...</i></p>
+<!--END_SECTION:activity-->
+<!-- FIM DA SEÇÃO DE ATIVIDADE -->
+
 <div align="center" style="width: 70%; margin: 30px auto; height: 1px; background: linear-gradient(to right, #33333310, #007AFF, #33333310);"></div>
 
 <h3 align="center">
