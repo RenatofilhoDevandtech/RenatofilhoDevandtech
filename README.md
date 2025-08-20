@@ -25,7 +25,7 @@
 <div align="center">
   <h3 align="center">Dashboard Pessoal</h3>
   <a href="https://wakatime.com/@RenatofilhoDevandtech">
-    <img src="https://github-readme-stats.vercel.app/api/wakatime?username=RenatofilhoDevandtech&layout=compact&theme=transparent&title_color=007AFF&text_color=FFFFFF&icon_color=007AFF&hide_border=true" alt="WakaTime Stats" />
+    <img src="https://github-readme-stats.vercel.app/api/wakatime?username=RenatofilhoDevandtech&theme=transparent&title_color=007AFF&text_color=FFFFFF&icon_color=007AFF&hide_border=true&custom_title=Minha%20Atividade%20de%20Código%20(Últimos%207%20dias)" alt="WakaTime Stats" />
   </a>
   
   <a href="https://github.com/kittinan/spotify-github-profile" style="display: block; margin-top: 20px;">
@@ -33,6 +33,17 @@
   </a>
 </div>
 
+<div align="center" style="width: 70%; margin: 30px auto; height: 1px; background: linear-gradient(to right, #33333310, #007AFF, #33333310);"></div>
+
+<h3 align="center">
+  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Robot.png" alt="Robot" width="30" height="30" />
+  Análise de Commits por IA
+</h3>
+<p align="center" style="font-size:14px;">
+  Uma automação analisa meu último commit público e uma IA sugere uma mensagem aprimorada, seguindo as melhores práticas.
+</p>
+
+<p align="center"><i>Aguardando a próxima atualização da automação...</i></p>
 <div align="center" style="width: 70%; margin: 30px auto; height: 1px; background: linear-gradient(to right, #33333310, #007AFF, #33333310);"></div>
 
 <h3 align="center">
