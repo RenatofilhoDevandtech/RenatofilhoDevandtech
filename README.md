@@ -12,7 +12,7 @@
 
 <div align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&pause=1000&color=007AFF&center=true&vCenter=true&width=500&lines=Renato+Filho;Desenvolvedor+Full+Stack;Especialista+em+Redes+%26+Cloud;Construindo+Aplicações+Robustas" alt="Typing SVG">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&pause=1000&color=007AFF&center=true&vCenter=true&width=500&lines=Renato+Filho;Desenvolvedor+Full+Stack;Especialista+em+Redes+%26+Cloud;Meu+perfil+conversa+com+você" alt="Typing SVG">
   </a>
 </div>
 
@@ -21,6 +21,26 @@
 <p align="center">
   Desenvolvedor com foco em performance, escalabilidade e segurança. Minha base em <strong>Redes de Computadores</strong> e meu foco em <strong>Cloud AWS</strong> me dão uma visão sistêmica para construir aplicações robustas da infraestrutura ao front-end, garantindo uma experiência digital de alta qualidade para o usuário final.
 </p>
+
+<div align="center" style="width: 80%; margin: auto; border: 1px solid #30363d; border-radius: 8px; padding: 16px;">
+  <h3 align="center" style="margin-top:0;">
+    <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Robot.png" alt="Robot" width="30" height="30" />
+    Assistente de Perfil Interativa (IA)
+  </h3>
+  
+  <p align="center"><i>Olá! Sou a assistente de IA do Renato. Faça uma pergunta sobre suas habilidades, experiência ou projetos.</i></p>
+  <div align="center" style="margin-top: 16px;">
+    <a href="https://github.com/RenatofilhoDevandtech/RenatofilhoDevandtech/issues/new?assignees=&labels=ask-ai-assistant&template=ask-ai-assistant.md&title=Pergunta%3A+" style="text-decoration: none;">
+      <img src="https://img.shields.io/badge/Faça%20uma%20Pergunta-007AFF?style=for-the-badge&logo=github&logoColor=white" alt="Faça uma Pergunta">
+    </a>
+    <a href="https://github.com/RenatofilhoDevandtech/RenatofilhoDevandtech/actions/workflows/ai_assistant_workflow.yml" style="text-decoration: none;">
+      <img src="https://img.shields.io/badge/Limpar%20Chat-30363D?style=for-the-badge&logo=git-lfs&logoColor=white" alt="Limpar Chat">
+    </a>
+  </div>
+</div>
+
+
+<div align="center" style="width: 70%; margin: 30px auto; height: 1px; background: linear-gradient(to right, #33333310, #007AFF, #33333310);"></div>
 
 <div align="center">
   <h3 align="center">Dashboard Pessoal</h3>
@@ -32,41 +52,6 @@
     <img src="https://spotify-github-profile.kittinanx.com/api/view?uid=igwnat2v17vlpp8ws07s50xoy&cover_image=true&theme=tokyonight&show_offline=true&interchange=false&bar_color_cover=false" alt="Spotify Now Playing" />
   </a>
 </div>
-
-<div align="center" style="width: 70%; margin: 30px auto; height: 1px; background: linear-gradient(to right, #33333310, #007AFF, #33333310);"></div>
-
-<h3 align="center">
-  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Robot.png" alt="Robot" width="30" height="30" />
-  Análise de Commits por IA
-</h3>
-<p align="center" style="font-size:14px;">
-  Uma automação analisa meu último commit público e uma IA sugere uma mensagem aprimorada, seguindo as melhores práticas.
-</p>
-
-<p align="center"><i>Aguardando a próxima atualização da automação...</i></p>
-<div align="center" style="width: 70%; margin: 30px auto; height: 1px; background: linear-gradient(to right, #33333310, #007AFF, #33333310);"></div>
-
-<h3 align="center">
-  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Gear.png" alt="Gear" width="30" height="30" />
-  Filosofia de Desenvolvimento
-</h3>
-
-<table width="100%">
-  <tr align="center">
-    <td width="33%" valign="top">
-      <h4>Performance como Prioridade</h4>
-      <p style="font-size:14px;">Construir aplicações rápidas e eficientes, otimizando desde a consulta no banco de dados até a renderização no navegador.</p>
-    </td>
-    <td width="33%" valign="top">
-      <h4>Código Limpo e Escalável</h4>
-      <p style="font-size:14px;">Escrever código legível, bem documentado e estruturado, pensando na manutenção e no crescimento futuro do projeto.</p>
-    </td>
-    <td width="33%" valign="top">
-      <h4>Segurança e Confiabilidade</h4>
-      <p style="font-size:14px;">Aplicar as melhores práticas de segurança em todas as camadas da aplicação, garantindo a integridade e a disponibilidade dos dados.</p>
-    </td>
-  </tr>
-</table>
 
 <div align="center" style="width: 70%; margin: 30px auto; height: 1px; background: linear-gradient(to right, #33333310, #007AFF, #33333310);"></div>
 
