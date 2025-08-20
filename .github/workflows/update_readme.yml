@@ -14,12 +14,20 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - name: Get Last Commit from GitHub API
+      - name: Get Last Commit from GitHub API (Robust Version)
         id: last_commit
         run: |
           EVENT_DATA=$(curl --silent "https://api.github.com/users/RenatofilhoDevandtech/events/public")
-          REPO_NAME=$(echo "$EVENT_DATA" | jq -r '[.[] | select(.type=="PushEvent")][0].repo.name')
-          COMMIT_MESSAGE=$(echo "$EVENT_DATA" | jq -r '[.[] | select(.type=="PushEvent")][0].payload.commits[0].message')
+          LATEST_PUSH=$(echo "$EVENT_DATA" | jq '[.[] | select(.type=="PushEvent")][0]')
+
+          if [[ "$LATEST_PUSH" == "null" ]]; then
+            REPO_NAME="N/A"
+            COMMIT_MESSAGE="Nenhum commit público recente encontrado."
+          else
+            REPO_NAME=$(echo "$LATEST_PUSH" | jq -r '.repo.name')
+            COMMIT_MESSAGE=$(echo "$LATEST_PUSH" | jq -r '.payload.commits[0].message')
+          fi
+          
           echo "repo_full_name=$REPO_NAME" >> $GITHUB_OUTPUT
           echo "message=$COMMIT_MESSAGE" >> $GITHUB_OUTPUT
 
@@ -36,12 +44,13 @@ jobs:
 
       - name: Update README file
         env:
+          # Define as variáveis de ambiente com os dados dos passos anteriores
           REPO_FULL_NAME: ${{ steps.last_commit.outputs.repo_full_name }}
           COMMIT_MESSAGE: ${{ steps.last_commit.outputs.message }}
           AI_SUGGESTION: ${{ steps.commit_suggester.outputs.gemini_text }}
         run: |
-          # Prepara o novo conteúdo que será inserido no README
-          NEW_CONTENT=$(cat <<EOF
+          # Prepara o novo conteúdo HTML em uma variável de ambiente para ser lido pelo Python
+          export NEW_CONTENT_BODY=$(cat <<EOF
           <table width="100%">
             <tr>
               <td width="20%"><b>Última Atividade em:</b></td>
@@ -59,26 +68,30 @@ jobs:
           EOF
           )
 
-          # Usa Python (que é mais robusto para múltiplas linhas) para substituir o conteúdo
+          # Script Python que agora lê a variável de ambiente de forma segura
           python -c "
           import re
+          import os
           
           readme_path = 'README.md'
           start_marker = ''
           end_marker = ''
-          new_block = f'{start_marker}\n{'$NEW_CONTENT'}\n{end_marker}'
+          
+          # Lê o conteúdo da variável de ambiente, evitando o SyntaxError
+          new_content_body = os.environ['NEW_CONTENT_BODY']
+          
+          new_block = f'{start_marker}\n{new_content_body}\n{end_marker}'
           
           with open(readme_path, 'r+') as f:
               content = f.read()
-              new_content = re.sub(f'{start_marker}(.|\n)*?{end_marker}', new_block, content)
+              new_content_full = re.sub(f'{start_marker}(.|\n)*?{end_marker}', new_block, content)
               f.seek(0)
               f.truncate()
-              f.write(new_content)
+              f.write(new_content_full)
           "
 
       - name: Commit and push changes
         run: |
-          # Verifica se houve alguma mudança no arquivo README.md
           if [[ -n "$(git status --porcelain README.md)" ]]; then
             git config --global user.name 'GitHub Actions Bot'
             git config --global user.email 'github-actions[bot]@users.noreply.github.com'
