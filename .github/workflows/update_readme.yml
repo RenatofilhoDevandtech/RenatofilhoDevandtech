@@ -8,10 +8,9 @@ on:
 jobs:
   update:
     runs-on: ubuntu-latest
-    # CORREÇÃO 1: Adicionando permissão de escrita no repositório
     permissions:
-      contents: write
-      
+      contents: write # Permissão para escrever no repositório
+
     steps:
       - uses: actions/checkout@v3
 
@@ -35,23 +34,57 @@ jobs:
           SUGGESTION=$(echo "$API_RESPONSE" | jq -r '.candidates[0].content.parts[0].text' | tr -d '\n' | tr -d '`' | sed 's/\"//g')
           echo "gemini_text=$SUGGESTION" >> $GITHUB_OUTPUT
 
-      # CORREÇÃO 2: Estrutura correta do passo final
-      - name: Update README with AI Suggestion and Repo Info
-        uses: teoxoy/profile-readme-stats@v2
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          template: |
-            <table width="100%">
-              <tr>
-                <td width="20%"><b>Última Atividade em:</b></td>
-                <td><a href="https://github.com/${{ steps.last_commit.outputs.repo_full_name }}"><b>${{ steps.last_commit.outputs.repo_full_name }}</b></a></td>
-              </tr>
-              <tr>
-                <td width="20%"><b>Meu Último Commit:</b></td>
-                <td><code>${{ steps.last_commit.outputs.message }}</code></td>
-              </tr>
-              <tr>
-                <td width="20%"><b>Sugestão da IA:</b></td>
-                <td><code>${{ steps.commit_suggester.outputs.gemini_text }}</code></td>
-              </tr>
-            </table>
+      - name: Update README file
+        env:
+          REPO_FULL_NAME: ${{ steps.last_commit.outputs.repo_full_name }}
+          COMMIT_MESSAGE: ${{ steps.last_commit.outputs.message }}
+          AI_SUGGESTION: ${{ steps.commit_suggester.outputs.gemini_text }}
+        run: |
+          # Prepara o novo conteúdo que será inserido no README
+          NEW_CONTENT=$(cat <<EOF
+          <table width="100%">
+            <tr>
+              <td width="20%"><b>Última Atividade em:</b></td>
+              <td><a href="https://github.com/$REPO_FULL_NAME"><b>$REPO_FULL_NAME</b></a></td>
+            </tr>
+            <tr>
+              <td width="20%"><b>Meu Último Commit:</b></td>
+              <td><code>$COMMIT_MESSAGE</code></td>
+            </tr>
+            <tr>
+              <td width="20%"><b>Sugestão da IA:</b></td>
+              <td><code>$AI_SUGGESTION</code></td>
+            </tr>
+          </table>
+          EOF
+          )
+
+          # Usa Python (que é mais robusto para múltiplas linhas) para substituir o conteúdo
+          python -c "
+          import re
+          
+          readme_path = 'README.md'
+          start_marker = ''
+          end_marker = ''
+          new_block = f'{start_marker}\n{'$NEW_CONTENT'}\n{end_marker}'
+          
+          with open(readme_path, 'r+') as f:
+              content = f.read()
+              new_content = re.sub(f'{start_marker}(.|\n)*?{end_marker}', new_block, content)
+              f.seek(0)
+              f.truncate()
+              f.write(new_content)
+          "
+
+      - name: Commit and push changes
+        run: |
+          # Verifica se houve alguma mudança no arquivo README.md
+          if [[ -n "$(git status --porcelain README.md)" ]]; then
+            git config --global user.name 'GitHub Actions Bot'
+            git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+            git add README.md
+            git commit -m "chore(readme): Update latest activity"
+            git push
+          else
+            echo "README is already up to date."
+          fi
