@@ -100,7 +100,7 @@
         <img src="https://img.shields.io/badge/GitHub-20232A?style=flat&logo=github&logoColor=white" alt="GitHub">
         <img src="https://img.shields.io/badge/Cypress-20232A?style=flat&logo=cypress&logoColor=white" alt="Cypress">
         <img src="https://img.shields.io/badge/Postman-20232A?style=flat&logo=postman&logoColor=FF6C37" alt="Postman">
-        <img src="https://img.shields.io/badge/Linux-20232A?style=flat&logo=linux&logoColor=FCC24" alt="Linux">
+        <img src="https://img.shields.io/badge/Linux-20232A?style=flat&logo=linux&logoColor=FCC624" alt="Linux">
         <img src="https://img.shields.io/badge/Figma-20232A?style=flat&logo=figma&logoColor=F24E1E" alt="Figma">
         <img src="https://img.shields.io/badge/Notion-20232A?style=flat&logo=notion&logoColor=white" alt="Notion">
       </p>
