@@ -29,9 +29,7 @@ jobs:
           else
             # Se o gatilho foi uma nova Issue, gera a resposta da IA
             USER_QUESTION="${{ github.event.issue.title }}"
-            PROMPT="Aja como uma assistente de IA para o perfil do desenvolvedor Renato Filho. Um visitante fez a seguinte pergunta sobre ele: '${USER_QUESTION}'.
-            As informações chave sobre o Renato são: Desenvolvedor Full Stack, formado em Redes de Computadores, com foco em Cloud (AWS). Suas tecnologias principais incluem React, Next.js, Node.js, Python, Docker e PostgreSQL.
-            Sua tarefa é responder a pergunta de forma clara, profissional e amigável, em português do Brasil. Retorne APENAS a resposta, sem nenhum título ou formatação adicional."
+            PROMPT="Aja como uma assistente de IA para o perfil do desenvolvedor Renato Filho. Um visitante fez a seguinte pergunta sobre ele: '${USER_QUESTION}'. As informações chave sobre o Renato são: Desenvolvedor Full Stack, formado em Redes de Computadores, com foco em Cloud (AWS). Suas tecnologias principais incluem React, Next.js, Node.js, Python, Docker e PostgreSQL. Sua tarefa é responder a pergunta de forma clara, profissional e amigável, em português do Brasil. Retorne APENAS a resposta, sem nenhum título ou formatação adicional."
             
             JSON_PAYLOAD=$(jq -n --arg prompt "$PROMPT" '{contents: [{parts: [{text: $prompt}]}]}')
             API_RESPONSE=$(curl -s -X POST "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=${{ secrets.GEMINI_API_KEY }}" -H "Content-Type: application/json" -d "$JSON_PAYLOAD")
@@ -41,26 +39,24 @@ jobs:
               AI_RESPONSE="Não consegui processar a pergunta no momento, mas o Renato é um excelente profissional com foco em tecnologias web modernas e infraestrutura de redes!"
             fi
 
-            # Gera o conteúdo formatado em estilo de chat
-            CONTENT_HTML=$(cat <<EOF
-            <div style='text-align: left; margin-bottom: 12px;'>
+            # --- CORREÇÃO APLICADA AQUI ---
+            # Gera o conteúdo HTML usando uma string multi-linha, que é mais segura
+            CONTENT_HTML="<div style='text-align: left; margin-bottom: 12px;'>
                 <p style='margin: 0 0 4px 0; font-size: 12px; color: #848d97;'><strong>Você perguntou:</strong></p>
                 <pre style='background-color: #161b22; color: #c9d1d9; padding: 8px 12px; border-radius: 6px; margin: 0; white-space: pre-wrap; font-family: monospace;'><code>$USER_QUESTION</code></pre>
             </div>
             <div style='text-align: left;'>
                 <p style='margin: 0 0 4px 0; font-size: 12px; color: #848d97;'><strong>🤖 Assistente de IA responde:</strong></p>
                 <pre style='background-color: #1f6feb26; color: #c9d1d9; padding: 8px 12px; border-radius: 6px; margin: 0; white-space: pre-wrap; font-family: monospace;'><code>$AI_RESPONSE</code></pre>
-            </div>
-            EOF
-            )
+            </div>"
           fi
           
-          # Disponibiliza o conteúdo para o próximo passo
-          echo "new_content=$CONTENT_HTML" >> $GITHUB_OUTPUT
+          # Disponibiliza o conteúdo para o próximo passo, tratando quebras de linha
+          echo "new_content<<EOF" >> $GITHUB_OUTPUT
+          echo "$CONTENT_HTML" >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
 
       - name: Update README file
-        env:
-          NEW_CONTENT_HTML: ${{ steps.content_generator.outputs.new_content }}
         run: |
           # Script Python "à prova de falhas" que reconstrói o README
           python -c "
@@ -70,6 +66,7 @@ jobs:
           start_marker = ''
           end_marker = ''
           
+          # Lê o conteúdo multi-linha passado do passo anterior
           new_content_body = os.environ['NEW_CONTENT_HTML']
           
           new_readme_lines = []
@@ -89,6 +86,8 @@ jobs:
           with open(readme_path, 'w') as f:
               f.writelines(new_readme_lines)
           "
+        env:
+          NEW_CONTENT_HTML: ${{ steps.content_generator.outputs.new_content }}
 
       - name: Commit and push changes
         run: |
