@@ -24,10 +24,24 @@
   Meu objetivo é claro: a evolução contínua para o desenvolvimento <strong>Full Stack e Cloud</strong>. Encaro cada novo desafio como uma oportunidade de aprendizado, sempre buscando as melhores ferramentas para transformar ideias complexas em soluções elegantes e funcionais.
 </p>
 
+<div align="center" style="margin: 30px 0;">
+  <h3 align="center">
+    <img src="https://github.com/RenatofilhoDevandtech/RenatofilhoDevandtech/blob/main/assets/Gengar-Tech.png" alt="Gengar-Tech" width="100" height="100" />
+    Dashboard Pessoal
+  </h3>
+  <a href="https://wakatime.com/@Filho">
+    <img src="https://github-readme-stats.vercel.app/api/wakatime?username=Filho&theme=transparent&title_color=007AFF&text_color=FFFFFF&icon_color=007AFF&hide_border=true&custom_title=Minha%20Atividade%20de%20Código%20(Últimos%207%20dias)" alt="WakaTime Stats" />
+  </a>
+  
+  <a href="https://github.com/kittinan/spotify-github-profile" style="display: block; margin-top: 20px;">
+    <img src="https://spotify-github-profile.kittinanx.com/api/view.svg?uid=igwnat2v17vlpp8ws07s50xoy&cover_image=false&theme=default&show_offline=false&background_color=121212&interchange=false&bar_color=53b14f&bar_color_cover=false" alt="Spotify Now Playing" />
+  </a>
+</div>
+
 <div align="center" style="width: 70%; margin: 30px auto; height: 1px; background: linear-gradient(to right, #33333310, #007AFF, #33333310);"></div>
 
 <h3 align="center">
-  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People/Man%20Raising%20Hand.png" alt="Man Raising Hand" width="30" height="30" />
+  <img src="https://github.com/RenatofilhoDevandtech/RenatofilhoDevandtech/blob/main/assets/Abra-Tech.png" alt="Alakazam Icon" width="100" height="100" />
   Soft Skills & Valores
 </h3>
 
@@ -56,11 +70,8 @@
 
 <div align="center" style="width: 70%; margin: 30px auto; height: 1px; background: linear-gradient(to right, #33333310, #007AFF, #33333310);"></div>
 
-
-<div align="center" style="width: 70%; margin: 30px auto; height: 1px; background: linear-gradient(to right, #33333310, #007AFF, #33333310);"></div>
-
 <h3 align="center">
-  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Toolbox.png" alt="Toolbox" width="30" height="30" />
+  <img src="https://github.com/RenatofilhoDevandtech/RenatofilhoDevandtech/blob/main/assets/Meowth-Tech.png" alt="Meowth-Tech com logos de ferramentas tech javascript react e html" width="100" height="100" />
   Meu Arsenal de Ferramentas
 </h3>
 
@@ -100,7 +111,7 @@
     <td width="33%" valign="top" align="center">
       <h4>Ferramentas & Design</h4>
       <p>
-         <img src="https://img.shields.io/badge/Git-20232A?style=flat&logo=git&logoColor=F05032" alt="Git">
+        <img src="https://img.shields.io/badge/Git-20232A?style=flat&logo=git&logoColor=F05032" alt="Git">
         <img src="https://img.shields.io/badge/GitHub-20232A?style=flat&logo=github&logoColor=white" alt="GitHub">
         <img src="https://img.shields.io/badge/Cypress-20232A?style=flat&logo=cypress&logoColor=white" alt="Cypress">
         <img src="https://img.shields.io/badge/Postman-20232A?style=flat&logo=postman&logoColor=FF6C37" alt="Postman">
@@ -130,19 +141,15 @@
 <div align="center" style="width: 70%; margin: 30px auto; height: 1px; background: linear-gradient(to right, #33333310, #007AFF, #33333310);"></div>
 
 <h3 align="center">
-  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Waving%20Hand.png" alt="Waving Hand" width="30" height="30" />
-  Vamos Conectar!
+  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Waving%20Hand.png" alt="Waving Hand" width="30" height="30" />
+  Vamos Conectar!
 </h3>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/renato-filho-devandtech/" target="_blank">
-    <img alt="LinkedIn" src="https://img.shields.io/badge/-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white">
-  </a>
-  <a href="mailto:renatoservicesti@email.com" target="_blank">
-    <img alt="Gmail" src="https://img.shields.io/badge/-Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white">
-  </a>
-  <a href="https://www.instagram.com/renato.filho.devandtech" target="_blank">
-    <img alt="Instagram" src="https://img.shields.io/badge/-Instagram-833AB4?style=for-the-badge&logo=instagram&logoColor=white">
-  </a>
+  <a href="https://www.linkedin.com/in/renato-filho-devandtech/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white"></a>
+  <a href="mailto:renatoservicesti@email.com" target="_blank"><img alt="Gmail" src="https://img.shields.io/badge/Gmail-EA4335?style=flat-square&logo=gmail&logoColor=white"></a>
+  <a href="https://www.instagram.com/renato.filho.devandtech" target="_blank"><img alt="Instagram" src="https://img.shields.io/badge/Instagram-833AB4?style=flat-square&logo=instagram&logoColor=white"></a>
 </p>
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=ffffff20&height=120&section=footer"/>
+
+<br>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=007AFF&height=4"/>
