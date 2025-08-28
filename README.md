@@ -26,22 +26,18 @@
 
 <div align="center" style="margin: 30px 0;">
   <h3 align="center">
-    <img src="https://github.com/RenatofilhoDevandtech/RenatofilhoDevandtech/blob/main/assets/Gengar-Tech.png" alt="Gengar-Tech" width="100" height="100" />
+    <img src="https://github.com/RenatofilhoDevandtech/RenatofilhoDevandtech/blob/main/assets/Gengar-Tech.png" alt="Gengar-Tech" width="150" height="150" />
     Dashboard Pessoal
   </h3>
-  <a href="https://wakatime.com/@Filho">
-    <img src="https://github-readme-stats.vercel.app/api/wakatime?username=Filho&theme=transparent&title_color=007AFF&text_color=FFFFFF&icon_color=007AFF&hide_border=true&custom_title=Minha%20Atividade%20de%20Código%20(Últimos%207%20dias)" alt="WakaTime Stats" />
-  </a>
+ <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=RenatofilhoDevandtech&layout=compact&hide_border=true&theme=transparent&title_color=007AFF&text_color=FFFFFF&icon_color=007AFF" />
+ <img src="https://github-readme-streak-stats.herokuapp.com?user=RenatofilhoDevandtech&hide_border=true&theme=transparent&fire=007AFF&ring=007AFF&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=007AFF&sideLabels=007AFF&dates=FFFFFF" />
   
-  <a href="https://github.com/kittinan/spotify-github-profile" style="display: block; margin-top: 20px;">
-    <img src="https://spotify-github-profile.kittinanx.com/api/view.svg?uid=igwnat2v17vlpp8ws07s50xoy&cover_image=false&theme=default&show_offline=false&background_color=121212&interchange=false&bar_color=53b14f&bar_color_cover=false" alt="Spotify Now Playing" />
-  </a>
 </div>
 
 <div align="center" style="width: 70%; margin: 30px auto; height: 1px; background: linear-gradient(to right, #33333310, #007AFF, #33333310);"></div>
 
 <h3 align="center">
-  <img src="https://github.com/RenatofilhoDevandtech/RenatofilhoDevandtech/blob/main/assets/Abra-Tech.png" alt="Alakazam Icon" width="100" height="100" />
+  <img src="https://github.com/RenatofilhoDevandtech/RenatofilhoDevandtech/blob/main/assets/Abra-Tech.png" alt="Alakazam Icon" width="150" height="150" />
   Soft Skills & Valores
 </h3>
 
@@ -71,14 +67,9 @@
 <div align="center" style="width: 70%; margin: 30px auto; height: 1px; background: linear-gradient(to right, #33333310, #007AFF, #33333310);"></div>
 
 <h3 align="center">
-  <img src="https://github.com/RenatofilhoDevandtech/RenatofilhoDevandtech/blob/main/assets/Meowth-Tech.png" alt="Meowth-Tech com logos de ferramentas tech javascript react e html" width="100" height="100" />
+  <img src="https://github.com/RenatofilhoDevandtech/RenatofilhoDevandtech/blob/main/assets/Meowth-Tech.png" alt="Meowth-Tech com logos de ferramentas tech javascript react e html" width="150" height="150" />
   Meu Arsenal de Ferramentas
 </h3>
-
-<div align="center" style="margin: 20px 0;">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=RenatofilhoDevandtech&layout=compact&hide_border=true&theme=transparent&title_color=007AFF&text_color=FFFFFF&icon_color=007AFF" />
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=RenatofilhoDevandtech&hide_border=true&theme=transparent&fire=007AFF&ring=007AFF&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=007AFF&sideLabels=007AFF&dates=FFFFFF" />
-</div>
 
 <table width="100%" align="center" style="margin-top:20px;">
   <tr>
@@ -153,3 +144,12 @@
 
 <br>
 <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=007AFF&height=4"/>
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=RenatofilhoDevandtech&color=9f5fde&style=flat-square" alt="Contador de Visitas no Perfil"/>
+</p>
+<h3> 
+<h3 align="center"> 
+  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Waving%20Hand.png" alt="Waving Hand" width="30" height="30" />
+Muito obrigado por visitar minha página!
+</h3>
