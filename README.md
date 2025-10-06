@@ -127,4 +127,6 @@
     <a href="mailto:renatoservicesti@email.com" target="_blank"><img alt="Email" src="https://img.shields.io/badge/Email-A678DE?style=for-the-badge&logo=gmail&logoColor=white"></a>
   </p>
   <br>
+  <img src="https://komarev.com/ghpvc/?username=RenatofilhoDevandtech&color=A678DE&style=flat-square" alt="Contador de Visitas no Perfil"/>
+</div>
  
