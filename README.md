@@ -12,7 +12,7 @@
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&pause=1000&color=A678DE;8B5CF6&center=true&vCenter=true&width=500&lines=Ol%C3%A1%2C+eu+sou+o+Renato+Filho!;Resolvo+Problemas+%26+Amo+o+mundo+Tech;Da+Infraestrutura+ao+Front-End;Em+constante+evolu%C3%A7%C3%A3o+para+o+Full+Stack" alt="Typing SVG">
   </a>
   </h1>
-  <strong>Desenvolvedor Front-End | Ex-Analista de Redes com foco em Performance e Experiência do Usuário</strong>
+  <strong>Desenvolvedor Front-End | Analista de Redes com foco em Performance e Experiência do Usuário</strong>
 </div>
 
 <p align="center">
