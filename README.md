@@ -9,8 +9,8 @@
 <div align="center">
   <h1>
     <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&pause=1000&color=A678DE;8B5CF6&center=true&vCenter=true&width=500&lines=Ol%C3%A1%2C+eu+sou+o+Renato+Filho!;Resolvo+Problemas+%26+Amo+o+mundo+Tech;Da+Infraestrutura+ao+Front-End;Em+constante+evolu%C3%A7%C3%A3o+para+o+Full+Stack" alt="Typing SVG">
-  </a>
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&pause=1000&color=4EAF00&center=true&vCenter=true&width=500&lines=Ol%C3%A1%2C+eu+sou+o+Renato+Filho!;Resolvo+Problemas+%26+Amo+o+mundo+Tech;Da+Infraestrutura+ao+Front-End;Em+constante+evolu%C3%A7%C3%A3o+para+o+Full+Stack" alt="Typing SVG">
+  </a>
   </h1>
   <strong>Desenvolvedor Front-End | Analista de Redes com foco em Performance e Experiência do Usuário</strong>
 </div>
@@ -20,16 +20,16 @@
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/renato-filho-devandtech/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-A678DE?style=for-the-badge&logo=linkedin&logoColor=white"></a>
-  <a href="mailto:renatoservicesti@email.com" target="_blank"><img alt="Email" src="https://img.shields.io/badge/Email-A678DE?style=for-the-badge&logo=gmail&logoColor=white"></a>
+  <a href="https://www.linkedin.com/in/renato-filho-devandtech/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-4EAF00?style=for-the-badge&logo=linkedin&logoColor=white"></a>
+  <a href="mailto:renatoservicesti@email.com" target="_blank"><img alt="Email" src="https://img.shields.io/badge/Email-4EAF00?style=for-the-badge&logo=gmail&logoColor=white"></a>
 </p>
 
  <div align="center" style="margin: 30px 0;">
-    <h3 align="center">
-      Estátiscas do meu GitHub
-    </h3>
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=RenatofilhoDevandtech&layout=compact&hide_border=true&theme=transparent&title_color=A678DE&text_color=FFFFFF&icon_color=A678DE" alt="Principais Linguagens"/>
-    <img src="https://github-readme-streak-stats.herokuapp.com?user=RenatofilhoDevandtech&hide_border=true&theme=transparent&fire=A678DE&ring=A678DE&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=A678DE&sideLabels=A678DE&dates=FFFFFF" alt="Estatísticas de Streak"/>
+    <h3 align="center">
+      Estátiscas do meu GitHub
+    </h3>
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=RenatofilhoDevandtech&layout=compact&hide_border=true&theme=transparent&title_color=4EAF00&text_color=FFFFFF&icon_color=4EAF00" alt="Principais Linguagens"/>
+    <img src="https://github-readme-streak-stats.herokuapp.com?user=RenatofilhoDevandtech&hide_border=true&theme=transparent&fire=4EAF00&ring=4EAF00&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=4EAF00&sideLabels=4EAF00&dates=FFFFFF" alt="Estatísticas de Streak"/>
   </div>
 </div>
 
@@ -37,7 +37,7 @@
 
 <div align="center">
   <h2>
-    <img src="https://api.iconify.design/feather/briefcase.svg?color=%238B5CF6" width="32" height="32" style="vertical-align: middle; margin-right: 8px;" />
+    <img src="https://api.iconify.design/feather/briefcase.svg?color=%234EAF00" width="32" height="32" style="vertical-align: middle; margin-right: 8px;" />
     Projetos em Destaque
   </h2>
 </div>
@@ -46,15 +46,15 @@
 
 | Projeto | Descrição | Tecnologias Utilizadas |
 | :--- | :--- | :--- |
-| <a href="https://github.com/seu-usuario/primefix"><img src="https://img.shields.io/badge/Primefix-A678DE?style=for-the-badge&logo=react&logoColor=white" alt="Badge do Primefix"/></a> | Interface moderna e responsiva para uma plataforma de streaming, com foco em componentização e performance. | `React` `Tailwind CSS` `Vite` `Vercel` |
-| <a href="https://github.com/seu-usuario/aws-cleanup"><img src="https://img.shields.io/badge/AWS_Cleanup-A678DE?style=for-the-badge&logo=amazon-aws&logoColor=white" alt="Badge do AWS Cleanup Wizard"/></a> | Ferramenta que identifica recursos não utilizados na AWS para otimização de custos, com front-end interativo. | `Next.js` `TypeScript` `AWS SDK` `Docker` |
-| <a href="https://github.com/seu-usuario/curriculo-api"><img src="https://img.shields.io/badge/CV_Interativo-A678DE?style=for-the-badge&logo=node.js&logoColor=white" alt="Badge do Currículo Interativo"/></a> | Aplicação que protege chaves de API em um backend e exibe um currículo dinâmico, com analytics de visualização. | `Node.js` `Express` `Firebase` `Render` |
+| <a href="https://github.com/seu-usuario/primefix"><img src="https://img.shields.io/badge/Primefix-4EAF00?style=for-the-badge&logo=react&logoColor=white" alt="Badge do Primefix"/></a> | Interface moderna e responsiva para uma plataforma de streaming, com foco em componentização e performance. | `React` `Tailwind CSS` `Vite` `Vercel` |
+| <a href="https://github.com/seu-usuario/aws-cleanup"><img src="https://img.shields.io/badge/AWS_Cleanup-4EAF00?style=for-the-badge&logo=amazon-aws&logoColor=white" alt="Badge do AWS Cleanup Wizard"/></a> | Ferramenta que identifica recursos não utilizados na AWS para otimização de custos, com front-end interativo. | `Next.js` `TypeScript` `AWS SDK` `Docker` |
+| <a href="https://github.com/seu-usuario/curriculo-api"><img src="https://img.shields.io/badge/CV_Interativo-4EAF00?style=for-the-badge&logo=node.js&logoColor=white" alt="Badge do Currículo Interativo"/></a> | Aplicação que protege chaves de API em um backend e exibe um currículo dinâmico, com analytics de visualização. | `Node.js` `Express` `Firebase` `Render` |
 
 ---
 
 <div align="center">
   <h2>
-    <img src="https://api.iconify.design/feather/tool.svg?color=%238B5CF6" width="32" height="32" style="vertical-align: middle; margin-right: 8px;" />
+    <img src="https://api.iconify.design/feather/tool.svg?color=%234EAF00" width="32" height="32" style="vertical-align: middle; margin-right: 8px;" />
     Tecnologias e Ferramentas
   </h2>
 </div>
@@ -95,17 +95,17 @@
 <p align="center">
     <img src="https://img.shields.io/badge/Gemini-8E77F0?style=flat-square&logo=google-gemini&logoColor=white" alt="Gemini"/>
     <img src="https://img.shields.io/badge/GitHub_Copilot-171515?style=flat-square&logo=github-copilot&logoColor=white" alt="GitHub Copilot"/>
-    <img src="https://img.shields.io/badge/Cursor-A678DE?style=flat-square&logo=cursor&logoColor=white" alt="Cursor"/>
+    <img src="https://img.shields.io/badge/Cursor-4EAF00?style=flat-square&logo=cursor&logoColor=white" alt="Cursor"/>
     <img src="https://img.shields.io/badge/Amazon_Q-232F3E?style=flat-square&logo=amazon-aws&logoColor=FF9900" alt="Amazon Q"/>
     <img src="https://img.shields.io/badge/V0-000000?style=flat-square&logo=vercel&logoColor=white" alt="V0 by Vercel"/>
-    <img src="https://img.shields.io/badge/Lovable-A678DE?style=flat-square&logo=heart&logoColor=white" alt="Lovable.dev"/>
+    <img src="https://img.shields.io/badge/Lovable-4EAF00?style=flat-square&logo=heart&logoColor=white" alt="Lovable.dev"/>
 </p>
 
 ---
 
 <div align="center">
   <h2>
-    <img src="https://api.iconify.design/feather/compass.svg?color=%238B5CF6" width="32" height="32" style="vertical-align: middle; margin-right: 8px;" />
+    <img src="https://api.iconify.design/feather/compass.svg?color=%234EAF00" width="32" height="32" style="vertical-align: middle; margin-right: 8px;" />
     Minha Filosofia de Trabalho
   </h2>
 </div>
@@ -118,15 +118,14 @@
 <div align="center">
   <hr>
   <h3>
-    <img src="https://api.iconify.design/feather/send.svg?color=%238B5CF6" width="28" height="28" style="vertical-align: middle; margin-right: 8px;" />
+    <img src="https://api.iconify.design/feather/send.svg?color=%234EAF00" width="28" height="28" style="vertical-align: middle; margin-right: 8px;" />
     Vamos Conversar?
   </h3>
   <p>Estou sempre aberto a novas oportunidades e colaborações. Se você tem um projeto em mente ou acredita que meu perfil se encaixa na sua equipe, vamos nos conectar!</p>
   <p>
-    <a href="https://www.linkedin.com/in/renato-filho-devandtech/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-A678DE?style=for-the-badge&logo=linkedin&logoColor=white"></a>
-    <a href="mailto:renatoservicesti@email.com" target="_blank"><img alt="Email" src="https://img.shields.io/badge/Email-A678DE?style=for-the-badge&logo=gmail&logoColor=white"></a>
+    <a href="https://www.linkedin.com/in/renato-filho-devandtech/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-4EAF00?style=for-the-badge&logo=linkedin&logoColor=white"></a>
+    <a href="mailto:renatoservicesti@email.com" target="_blank"><img alt="Email" src="https://img.shields.io/badge/Email-4EAF00?style=for-the-badge&logo=gmail&logoColor=white"></a>
   </p>
   <br>
-  <img src="https://komarev.com/ghpvc/?username=RenatofilhoDevandtech&color=A678DE&style=flat-square" alt="Contador de Visitas no Perfil"/>
+  <img src="https://komarev.com/ghpvc/?username=RenatofilhoDevandtech&color=4EAF00&style=flat-square" alt="Contador de Visitas no Perfil"/>
 </div>
- 
