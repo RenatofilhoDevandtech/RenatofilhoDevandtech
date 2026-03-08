@@ -6,6 +6,7 @@
   </picture>
 </div>
 
+
 <div align="center">
   <h1>
     <a href="https://git.io/typing-svg">
@@ -26,8 +27,11 @@
 
 <div align="center">
   <h3>📊 Estatísticas do meu GitHub</h3>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=RenatofilhoDevandtech&layout=compact&hide_border=true&theme=transparent&title_color=4EAF00&text_color=FFFFFF&icon_color=4EAF00" alt="Principais Linguagens"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=RenatofilhoDevandtech&hide_border=true&theme=transparent&fire=4EAF00&ring=4EAF00&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=4EAF00&sideLabels=4EAF00&dates=FFFFFF" alt="Estatísticas de Streak"/>
+  <br />
+  <p align="center">
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=RenatofilhoDevandtech&theme=github_dark" height="180" />
+    <img src="https://github-readme-streak-stats.herokuapp.com?user=RenatofilhoDevandtech&hide_border=true&theme=transparent&fire=4EAF00&ring=4EAF00&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=4EAF00&sideLabels=4EAF00&dates=FFFFFF" height="180" />
+  </p>
 </div>
 
 ---
