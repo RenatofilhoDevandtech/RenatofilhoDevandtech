@@ -1,6 +1,6 @@
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/RenatofilhoDevandtech/RenatofilhoDevandtech/blob/main/assets/banner-tema-escuro.png">
+    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/RenatofilhoDevandtech/RenatofilhoDevandtech/blob/main/assets/banner-tema-escuro%20(2).png">
     <source media="(prefers-color-scheme: light)" srcset="https://github.com/RenatofilhoDevandtech/RenatofilhoDevandtech/blob/main/assets/banner-tema-light.png">
     <img alt="Banner do Perfil de Renato Filho" src="https://github.com/RenatofilhoDevandtech/RenatofilhoDevandtech/blob/main/assets/Banner-Github.png">
   </picture>
