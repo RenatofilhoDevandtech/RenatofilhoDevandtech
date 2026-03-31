@@ -47,9 +47,11 @@
 
 | Projeto | Descrição | Tecnologias Utilizadas |
 | :--- | :--- | :--- |
-| <a href="https://github.com/RenatofilhoDevandtech/primefix"><img src="https://img.shields.io/badge/Primefix-4EAF00?style=for-the-badge&logo=react&logoColor=white" alt="Badge do Primefix"/></a> | Interface moderna e responsiva para uma plataforma de streaming. | `React` `Tailwind CSS` `Vite` |
-| <a href="https://github.com/RenatofilhoDevandtech/aws-cleanup"><img src="https://img.shields.io/badge/AWS_Cleanup-4EAF00?style=for-the-badge&logo=amazon-aws&logoColor=white" alt="Badge do AWS Cleanup Wizard"/></a> | Ferramenta que identifica recursos não utilizados na AWS. | `Next.js` `TypeScript` `AWS SDK` |
-| <a href="https://github.com/RenatofilhoDevandtech/curriculo-api"><img src="https://img.shields.io/badge/CV_Interativo-4EAF00?style=for-the-badge&logo=node.js&logoColor=white" alt="Badge do Currículo Interativo"/></a> | Aplicação que protege chaves de API e exibe currículo dinâmico. | `Node.js` `Express` `Firebase` |
+| <a href="https://github.com/RenatofilhoDevandtech/Site-Primefix"><img src="https://img.shields.io/badge/PrimeFlix_Moderno-4EAF00?style=for-the-badge&logo=react&logoColor=white" alt="Badge do PrimeFlix Moderno"/></a> | Aplicação premium de streaming com experiência fluida e visual marcante. | `React` `JavaScript` `CSS` `HTML` `API` `PostCSS` `React Router DOM` |
+| <a href="https://github.com/RenatofilhoDevandtech/DesafioLivrosVaiNaWeb"><img src="https://img.shields.io/badge/LivrosVaiNaWeb-4EAF00?style=for-the-badge&logo=react&logoColor=white" alt="Badge do Livros Vai na Web"/></a> | Desafio técnico para criar página web responsiva com React Router. | `React` `CSS` `HTML` `SASS` `React Router` |
+| <a href="https://github.com/RenatofilhoDevandtech/Multideal-ecommerce"><img src="https://img.shields.io/badge/Multiideal_Ecommerce-4EAF00?style=for-the-badge&logo=react&logoColor=white" alt="Badge do Multiideal Ecommerce"/></a> | Plataforma de e-commerce de elite com UI densa e checkout inteligente. | `React.js` `Vite` `Tailwind CSS` `shadcn/ui` `Framer Motion` `Lucide React` `TypeScript` |
+| <a href="https://github.com/RenatofilhoDevandtech/Projeto-Elevate"><img src="https://img.shields.io/badge/Projeto_Elevate-4EAF00?style=for-the-badge&logo=react&logoColor=white" alt="Badge do Projeto Elevate"/></a> | Projeto voltado para inovação e experiência digital diferenciada. | `React` `Tailwind` `HTML` `supbase` `gemini` `IA`  |
+
 
 ---
 
