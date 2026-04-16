@@ -24,6 +24,21 @@
   <a href="https://www.linkedin.com/in/renato-filho-devandtech/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-4EAF00?style=for-the-badge&logo=linkedin&logoColor=white"></a>
   <a href="mailto:renatoservicesti@email.com" target="_blank"><img alt="Email" src="https://img.shields.io/badge/Email-4EAF00?style=for-the-badge&logo=gmail&logoColor=white"></a>
 </p>
+<div align="center">
+  <h2>
+    <img src="https://api.iconify.design/feather/award.svg?color=%234EAF00" width="32" height="32" style="vertical-align: middle; margin-right: 8px;" />
+    Certificações Oficiais
+  </h2>
+  
+  <a href="https://www.credly.com/badges/d8c3be8d-6c2d-4db5-a777-419f0ed51c79/public_url" target="_blank">
+    <img src="https://github.com/user-attachments/assets/37c65a7d-93dc-423b-a98c-f007f43eb2ba" width="150" alt="AWS Certified Cloud Practitioner Badge" />
+  </a>
+  
+  <br />
+  <p><b>AWS Certified Cloud Practitioner</b></p>
+</div>
+
+<br />
 
 <div align="center">
   <h3>📊 Estatísticas do meu GitHub</h3>
